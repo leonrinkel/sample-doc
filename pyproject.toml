@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sample-doc"
+version = "1.0.0"
+authors = [
+  {name = "Leon Rinkel", email = "leon@rinkel.me"},
+]
+
+requires-python = ">=3.10"
+dependencies = [
+  "Sphinx>=8.2.3,==8.*",
+]
+
+[project.urls]
+Repository = "https://github.com/leonrinkel/sample-doc.git"
+Issues = "https://github.com/leonrinkel/sample-doc/issues"
